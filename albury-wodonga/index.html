@@ -13,7 +13,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Albury/Wodonga Solar Quotes | Clear Solar Quotes">
 <meta name="twitter:description" content="One accredited local installer for your postcode. Free and obligation-free.">
-<meta name="theme-color" content="#2563eb">
+<meta name="theme-color" content="#0a1020">
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"Clear Solar Quotes","url":"https://clearsolarquotes.com.au/","description":"Free solar quote matching. One accredited local installer per postcode, never shared or resold.","areaServed":"AU"},{"@type":"WebSite","name":"Clear Solar Quotes","url":"https://clearsolarquotes.com.au/"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this really free? What's the catch?","acceptedAnswer":{"@type":"Answer","text":"Genuinely free for homeowners. We earn a referral fee from the matched installer only if you choose to go ahead, and it never changes the price you're quoted. The matching service costs you nothing, with zero obligation."}},{"@type":"Question","name":"Why one installer instead of three competing quotes?","acceptedAnswer":{"@type":"Answer","text":"We match you exclusively with one top-rated installer for your area, so you're not hounded by five salespeople. They get your enquiry exclusively, so they're more invested in doing right by you. Not happy after speaking to them? Come back and we'll find an alternative."}},{"@type":"Question","name":"Are the installers actually accredited?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every installer in the network is a qualified, accredited professional. Accreditation is the standard required to install systems that qualify for government solar incentives, and it's non-negotiable for us."}},{"@type":"Question","name":"Do I qualify for solar rebates?","acceptedAnswer":{"@type":"Answer","text":"Most owner-occupied homes are eligible for government solar incentives, but it depends on your property, system and current program rules. Your matched installer confirms exactly what you qualify for as part of the quote."}},{"@type":"Question","name":"How much does solar cost?","acceptedAnswer":{"@type":"Answer","text":"It depends on system size, your roof and how much power you use. After government incentives a typical home system is a mid four-figure investment, but the only accurate number is a quote for your specific property, which your matched installer provides free."}},{"@type":"Question","name":"How long does installation take?","acceptedAnswer":{"@type":"Answer","text":"Most residential solar installations are completed in a single day once paperwork and grid approval are sorted. Your matched installer walks you through the exact timeline for your property."}},{"@type":"Question","name":"How soon will I hear back?","acceptedAnswer":{"@type":"Answer","text":"Usually within one business day. Once you're matched, your local installer reaches out directly to talk through your options and put together an obligation-free quote."}},{"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"We match by postcode. If a vetted installer covers your area you'll go straight through; if nobody covers your postcode yet, we'll tell you upfront. We're adding installers all the time."}}]}]}</script>
 <link rel="canonical" href="https://clearsolarquotes.com.au/albury-wodonga/">
 <link rel="icon" href="data:,">
@@ -36,327 +36,374 @@ src="https://www.facebook.com/tr?id=1645419089889035&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Lora:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+  /* ==========================================================
+     CLEAR SOLAR QUOTES - "clarity"
+     Single geometric family (Manrope) at many weights.
+     Dark full-bleed hero with the form overlapping into a light
+     body. Bento grid, large radii, cyan/blue. Deliberately the
+     opposite register to the sibling brands.
+     ========================================================== */
   :root{
-    --accent:#2563eb; --accent2:#22d3ee;
-    --ink:#101725; --ink2:#3d4757; --muted:#6b7686; --faint:#9aa4b2;
-    --bg:#f6f7fb; --card:#fff; --line:#e7e9f0; --line2:#dfe2ec;
-    --ok:#16a34a; --err:#dc2626;
-    --disp:'Outfit',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-    --serif:'Lora',Georgia,serif;
+    --accent:#2563eb; --accent-l:#38bdf8; --accent-d:#1d4ed8;
+    --night:#0a1020; --night2:#141d33;
+    --ink:#0f172a; --ink2:#41506b; --muted:#69788c; --faint:#94a3b8;
+    --bg:#f7f9fc; --card:#fff; --line:#e4e9f2; --line2:#cfd8e6;
+    --ok:#10b981; --err:#e11d48;
+    --f:'Manrope',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --r:18px; --rs:12px;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{font-family:var(--disp);color:var(--ink);line-height:1.5;overflow-x:hidden;-webkit-font-smoothing:antialiased;
-    background:var(--bg)}
+  body{font-family:var(--f);color:var(--ink);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased;background:var(--bg)}
   a{color:inherit;text-decoration:none}
-  .wrap{max-width:1140px;margin:0 auto;padding:0 clamp(20px,5vw,32px)}
-  /* header */
-  header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(1.6) blur(16px);border-bottom:1px solid var(--line)}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
-  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:1.16rem;letter-spacing:-.03em}
-  .brand .spark{width:34px;height:34px;border-radius:10px;background:var(--accent);display:grid;place-items:center}
-  .cta{background:var(--accent);color:#fff;border:none;border-radius:100px;padding:11px 22px;font-weight:700;font-size:.9rem;font-family:inherit;cursor:pointer;letter-spacing:-.01em}
-  .cta:hover{filter:brightness(.94)}
-  /* hero */
-  .hero{padding-block:clamp(40px,7vw,76px) 30px}
-  .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(32px,5vw,60px);align-items:center}
-  /* centered hero variant */
-  .hero.centered .hero-grid{grid-template-columns:1fr;max-width:660px;margin:0 auto;text-align:center;gap:8px}
-  .hero.centered .sub{margin-left:auto;margin-right:auto}
-  .hero.centered .ticks{display:inline-grid;text-align:left;justify-self:center;margin-top:4px}
-  .hero.centered .survey-card{max-width:560px;margin:30px auto 0;position:static;text-align:left}
-  .eyebrow{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);color:var(--ink2);font-weight:600;font-size:.78rem;padding:7px 14px;border-radius:100px;margin-bottom:22px;box-shadow:0 2px 8px rgba(16,24,40,.04)}
-  .eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px color-mix(in srgb,var(--ok) 20%,transparent);animation:blink 2.4s ease-in-out infinite}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 clamp(18px,4vw,30px)}
+  h1,h2,h3,h4{font-weight:800;letter-spacing:-.035em;line-height:1.08}
+  /* ---- header (on dark) ---- */
+  header{position:sticky;top:0;z-index:50;background:rgba(10,16,32,.86);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:20px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.1rem;letter-spacing:-.04em;color:#fff}
+  .brand .mark{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent-l),var(--accent));display:grid;place-items:center}
+  .navlinks{display:flex;gap:26px;font-size:.88rem;font-weight:500;color:#a8b6cc}
+  .navlinks a:hover{color:#fff}
+  .cta{background:#fff;color:var(--night);border:none;border-radius:100px;padding:10px 20px;font-weight:700;font-size:.86rem;font-family:var(--f);cursor:pointer}
+  .cta:hover{background:var(--accent-l);color:var(--night)}
+  /* ---- dark hero, form overlaps out ---- */
+  .herowrap{background:var(--night);background-image:radial-gradient(900px 400px at 78% -8%,rgba(56,189,248,.18),transparent 62%),radial-gradient(700px 380px at 8% 8%,rgba(37,99,235,.20),transparent 60%);color:#fff;padding-bottom:clamp(80px,11vw,132px)}
+  .hero{padding-top:clamp(40px,6vw,72px);display:grid;grid-template-columns:1.02fr .98fr;gap:clamp(28px,4vw,54px);align-items:start}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);color:#cbd8ea;font-weight:600;font-size:.77rem;padding:7px 15px;border-radius:100px;margin-bottom:22px}
+  .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px rgba(16,185,129,.2);animation:blink 2.4s ease-in-out infinite}
   @keyframes blink{0%,100%{opacity:1}50%{opacity:.4}}
-  h1{font-size:clamp(2.4rem,4.6vw,3.55rem);line-height:1.04;letter-spacing:-.045em;font-weight:900;margin-bottom:20px}
-  h1 .hl{font-family:var(--serif);font-style:italic;font-weight:600;letter-spacing:-.01em;color:var(--accent)}
-  .sub{font-size:1.08rem;color:var(--ink2);max-width:520px;margin-bottom:26px;font-weight:400}
-  .ticks{display:grid;gap:12px}
-  .tick{display:flex;align-items:center;gap:11px;font-weight:600;font-size:.96rem;color:var(--ink2)}
-  .tick svg{flex:0 0 auto}
-  /* survey card */
-  .survey-card{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;position:sticky;top:92px;
-    box-shadow:0 1px 2px rgba(16,24,40,.05),0 20px 44px -26px rgba(16,24,40,.20)}
-  .card-head{padding:22px 26px;background:var(--accent);color:#fff;position:relative;overflow:hidden}
-  .card-head .t{font-weight:800;font-size:1.12rem;letter-spacing:-.02em;position:relative}
-  .card-head .s{font-size:.84rem;opacity:.92;margin-top:3px;position:relative}
-  .survey-progress{padding:16px 26px 0}
-  .progbar{height:6px;border-radius:100px;background:var(--line);overflow:hidden}
-  .progbar>i{display:block;height:100%;width:0;border-radius:100px;background:var(--accent);transition:width .4s cubic-bezier(.4,0,.2,1)}
-  .progtext{font-size:.72rem;color:var(--muted);margin-top:8px;font-weight:600}
-  .card-body{padding:22px 26px 28px}
-  .step{display:none;animation:stepIn .45s cubic-bezier(.2,.7,.2,1)}
+  h1{font-size:clamp(2.3rem,4.7vw,3.5rem);margin-bottom:18px;color:#fff}
+  h1 .hl{background:linear-gradient(100deg,var(--accent-l),#a5b4fc);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:1.06rem;color:#a9b7cd;max-width:520px;margin-bottom:26px;font-weight:400}
+  .ticks{display:grid;gap:11px;margin-bottom:26px}
+  .tick{display:flex;align-items:flex-start;gap:11px;font-size:.95rem;color:#c2cee0;font-weight:500}
+  .tick svg{flex:0 0 auto;margin-top:4px}
+  .trust-pills{display:flex;flex-wrap:wrap;gap:9px}
+  .trust-pill{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:100px;padding:8px 14px;font-size:.78rem;font-weight:600;color:#bccbe0}
+  .trust-pill svg{width:13px;height:13px;color:var(--ok);flex:0 0 auto}
+  /* ---- survey: floating panel ---- */
+  .survey-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;position:sticky;top:84px;box-shadow:0 30px 70px -30px rgba(4,10,25,.65),0 2px 6px rgba(4,10,25,.25);color:var(--ink)}
+  .card-head{padding:20px 24px;background:linear-gradient(120deg,var(--accent),var(--accent-l));color:#fff}
+  .card-head .t{font-weight:800;font-size:1.1rem;letter-spacing:-.03em}
+  .card-head .s{font-size:.82rem;opacity:.94;margin-top:3px;font-weight:500}
+  .survey-progress{padding:16px 24px 0}
+  .progbar{height:7px;border-radius:100px;background:var(--line);overflow:hidden}
+  .progbar>i{display:block;height:100%;width:0;border-radius:100px;background:linear-gradient(90deg,var(--accent),var(--accent-l));transition:width .45s cubic-bezier(.4,0,.2,1)}
+  .progtext{font-size:.73rem;color:var(--muted);margin-top:8px;font-weight:700}
+  .card-body{padding:20px 24px 26px}
+  .step{display:none;animation:stepIn .42s cubic-bezier(.2,.7,.2,1)}
   .step.active{display:block}
   @keyframes stepIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-  .q{font-weight:800;font-size:1.22rem;letter-spacing:-.03em;margin-bottom:5px}
-  .qs{font-size:.88rem;color:var(--muted);margin-bottom:18px;font-weight:400}
-  .choice-card,.choice-h{width:100%;text-align:left;background:var(--card);border:1.5px solid var(--line2);border-radius:14px;padding:16px 17px;font-size:.98rem;font-weight:600;font-family:inherit;color:var(--ink);cursor:pointer;transition:.16s;display:flex;align-items:center;justify-content:space-between;gap:12px}
-  .choice-card+.choice-card,.choice-h+.choice-h{margin-top:11px}
-  .choice-card:hover,.choice-h:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .q{font-weight:800;font-size:1.2rem;letter-spacing:-.035em;margin-bottom:5px}
+  .qs{font-size:.87rem;color:var(--muted);margin-bottom:17px}
+  .choice-card,.choice-h{width:100%;text-align:left;background:var(--bg);border:1.5px solid transparent;border-radius:var(--rs);padding:15px 16px;font-size:.97rem;font-weight:600;font-family:var(--f);color:var(--ink);cursor:pointer;transition:.16s;display:flex;align-items:center;justify-content:space-between;gap:12px}
+  .choice-card+.choice-card,.choice-h+.choice-h{margin-top:10px}
+  .choice-card:hover,.choice-h:hover{border-color:var(--accent);background:#fff;transform:translateX(3px)}
   .choice-card span{color:var(--faint);transition:.16s}
-  .choice-card:hover span{color:var(--accent);transform:translateX(3px)}
-  .choice-card.selected,.choice-h.selected{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 7%,#fff);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 15%,transparent)}
-  .backlink{background:none;border:none;color:var(--muted);font-size:.84rem;font-weight:700;font-family:inherit;cursor:pointer;padding:6px 0;margin-bottom:12px}
+  .choice-card:hover span{color:var(--accent)}
+  .choice-card.selected,.choice-h.selected{border-color:var(--accent);background:rgba(37,99,235,.07)}
+  .backlink{background:none;border:none;color:var(--muted);font-size:.84rem;font-weight:700;font-family:var(--f);cursor:pointer;padding:5px 0;margin-bottom:11px}
   .backlink:hover{color:var(--accent)}
   .fld{margin-bottom:14px}
-  .fld label{display:block;font-size:.8rem;font-weight:700;color:var(--ink2);margin-bottom:6px}
-  .fld input{width:100%;border:1.5px solid var(--line2);border-radius:12px;padding:13px 14px;font-size:1rem;font-family:inherit;color:var(--ink);outline:none;transition:.16s;background:#fcfcfe}
-  .fld input:focus{border-color:var(--accent);background:#fff;box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 14%,transparent)}
+  .fld label{display:block;font-size:.79rem;font-weight:700;color:var(--ink2);margin-bottom:6px}
+  .fld input{width:100%;border:1.5px solid var(--line2);border-radius:var(--rs);padding:13px 14px;font-size:1rem;font-family:var(--f);font-weight:500;color:var(--ink);outline:none;transition:.16s;background:#fff}
+  .fld input:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(37,99,235,.13)}
   .fld input.err-field{border-color:var(--err)}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-  .err{color:var(--err);font-size:.78rem;margin-top:5px;display:none;font-weight:500}
-  .btn{width:100%;border:none;border-radius:100px;padding:15px;font-size:1.02rem;font-weight:800;font-family:inherit;cursor:pointer;color:#fff;letter-spacing:-.01em;transition:transform .16s,filter .16s,box-shadow .16s;
-    background:var(--accent)}
-  .btn:hover{filter:brightness(.94)}
-  .btn:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none;filter:none}
-  .suburb-chip{display:none;align-items:center;gap:8px;font-size:.84rem;font-weight:700;padding:10px 14px;border-radius:12px;margin-top:14px}
-  .suburb-chip.loading{background:var(--line);color:var(--ink2)}
-  .suburb-chip.found{background:color-mix(in srgb,var(--ok) 12%,#fff);color:var(--ok)}
-  .suburb-chip.no-coverage{background:color-mix(in srgb,var(--err) 9%,#fff);color:var(--err)}
+  .err{color:var(--err);font-size:.78rem;margin-top:5px;display:none;font-weight:600}
+  .btn{width:100%;border:none;border-radius:100px;padding:15px;font-size:1rem;font-weight:800;font-family:var(--f);cursor:pointer;color:#fff;background:linear-gradient(120deg,var(--accent),var(--accent-l));transition:.16s;letter-spacing:-.01em}
+  .btn:hover{filter:brightness(1.06);transform:translateY(-1px)}
+  .btn:disabled{opacity:.42;cursor:not-allowed;transform:none;filter:none}
+  .suburb-chip{display:none;align-items:center;gap:8px;font-size:.83rem;font-weight:700;padding:10px 14px;border-radius:var(--rs);margin-top:13px}
+  .suburb-chip.loading{background:var(--bg);color:var(--ink2)}
+  .suburb-chip.found{background:rgba(16,185,129,.11);color:#0d9268}
+  .suburb-chip.no-coverage{background:rgba(225,29,72,.09);color:var(--err)}
   .consent-wrap{display:flex;gap:11px;align-items:flex-start;margin:8px 0 18px;font-size:.79rem;color:var(--muted);line-height:1.55}
   .consent-wrap input{margin-top:3px;flex:0 0 auto;width:17px;height:17px;accent-color:var(--accent)}
-  .consent-wrap a{color:var(--accent);font-weight:600}
+  .consent-wrap a{color:var(--accent);font-weight:700}
   .fineprint{font-size:.72rem;color:var(--faint);text-align:center;margin-top:12px;line-height:1.55}
-  .success{text-align:center;padding:30px 8px 20px;animation:stepIn .5s ease}
-  .success .em{margin-bottom:16px;display:flex;justify-content:center}
-  .success h3{font-size:1.5rem;font-weight:900;letter-spacing:-.03em;margin-bottom:10px}
-  .success p{font-size:.94rem;color:var(--ink2);max-width:340px;margin:0 auto 20px;font-weight:400}
+  .success{text-align:center;padding:28px 8px 20px;animation:stepIn .5s ease}
+  .success .em{margin-bottom:15px;display:flex;justify-content:center}
+  .success h3{font-size:1.45rem;margin-bottom:10px}
+  .success p{font-size:.93rem;color:var(--ink2);max-width:340px;margin:0 auto 20px}
   .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
-  .badge{background:color-mix(in srgb,var(--accent) 8%,#fff);border:1px solid color-mix(in srgb,var(--accent) 22%,transparent);border-radius:100px;padding:7px 14px;font-size:.74rem;font-weight:700;color:var(--accent)}
-  /* how it works */
-  section.band{padding:clamp(56px,8vw,88px) 0}
-  .band h2{font-size:clamp(1.9rem,3.4vw,2.6rem);font-weight:900;letter-spacing:-.04em;text-align:center;margin-bottom:10px}
-  .band h2 .hl{font-family:var(--serif);font-style:italic;font-weight:600;color:var(--accent)}
-  .band .lead{text-align:center;color:var(--ink2);max-width:560px;margin:0 auto 40px;font-size:1.04rem;font-weight:400}
-  .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-  .s3{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 24px;transition:.2s;position:relative;overflow:hidden}
-  .s3::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .3s}
-  .s3:hover{transform:translateY(-4px);border-color:var(--line2);box-shadow:0 24px 50px -24px rgba(16,24,40,.22)}
-  .s3:hover::before{transform:scaleX(1)}
-  .s3 .n{width:40px;height:40px;border-radius:12px;background:color-mix(in srgb,var(--accent) 12%,#fff);color:var(--accent);font-weight:800;font-size:1.05rem;display:grid;place-items:center;margin-bottom:16px}
-  .s3 h4{font-size:1.08rem;font-weight:800;margin-bottom:7px;letter-spacing:-.02em}
-  .s3 p{font-size:.9rem;color:var(--muted);line-height:1.6;font-weight:400}
-  /* footer */
-  footer{background:var(--ink);color:#aeb6c4;padding:44px 0 34px;font-size:.84rem;margin-top:clamp(40px,6vw,72px)}
-  footer .fnav{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:18px}
-  footer a{color:#d3d9e4;font-weight:600}
-  footer a:hover{color:#fff}
-  footer .fine{font-size:.74rem;color:#6f7a8b;line-height:1.65;margin-top:14px;max-width:760px}
-  /* trust pills */
-  .trust-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
-  .trust-pill{display:inline-flex;align-items:center;gap:7px;background:var(--card);border:1px solid var(--line);border-radius:100px;padding:8px 14px;font-size:.8rem;font-weight:600;color:var(--ink2);box-shadow:0 2px 8px rgba(16,24,40,.04)}
-  .trust-pill svg{width:15px;height:15px;color:var(--ok);flex:0 0 auto}
-  /* generic section */
-  .sec{padding:clamp(52px,7vw,86px) 0}
-  .sec-head{text-align:center;max-width:640px;margin:0 auto 42px}
-  .sec-eyebrow{font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-  .sec-title{font-size:clamp(1.9rem,3.4vw,2.6rem);font-weight:900;letter-spacing:-.04em;line-height:1.08;margin-bottom:12px}
-  .sec-title .hl{font-family:var(--serif);font-style:italic;font-weight:600;color:var(--accent)}
-  .sec-sub{color:var(--ink2);font-size:1.04rem;font-weight:400}
-  /* why grid */
-  .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-  .why-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px 20px;transition:.2s}
-  .why-card:hover{transform:translateY(-4px);box-shadow:0 24px 50px -26px rgba(16,24,40,.22);border-color:var(--line2)}
-  .why-ic{width:44px;height:44px;border-radius:12px;background:color-mix(in srgb,var(--accent) 12%,#fff);color:var(--accent);display:grid;place-items:center;margin-bottom:14px}
-  .why-ic svg{width:22px;height:22px}
-  .why-card h3{font-size:1.04rem;font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
-  .why-card p{font-size:.88rem;color:var(--muted);line-height:1.6;font-weight:400}
-  /* faq */
-  .faq-wrap{max-width:760px;margin:0 auto;display:grid;gap:12px}
-  .faq-item{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
-  .faq-q{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 20px;font-weight:700;font-size:1rem;cursor:pointer;letter-spacing:-.01em}
-  .faq-q svg{width:20px;height:20px;flex:0 0 auto;color:var(--accent);transition:transform .25s}
+  .badge{background:rgba(37,99,235,.08);border:1px solid rgba(37,99,235,.2);border-radius:100px;padding:7px 13px;font-size:.73rem;font-weight:700;color:var(--accent)}
+  /* ---- bento ---- */
+  .sec{padding:clamp(48px,6.5vw,84px) 0}
+  .sec.pull-up{padding-top:0;margin-top:clamp(-70px,-8vw,-104px);position:relative;z-index:5}
+  .sec-head{max-width:640px;margin:0 auto 40px;text-align:center}
+  .sec-eyebrow{font-size:.75rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin-bottom:11px}
+  .sec-title{font-size:clamp(1.8rem,3.2vw,2.5rem);margin-bottom:12px}
+  .sec-sub{color:var(--ink2);font-size:1.02rem}
+  .bento{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .bx{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:24px;transition:.2s}
+  .bx:hover{transform:translateY(-3px);box-shadow:0 22px 46px -26px rgba(15,23,42,.3);border-color:var(--line2)}
+  .bx.wide{grid-column:span 2}
+  .bx .ic{width:40px;height:40px;border-radius:11px;background:rgba(37,99,235,.09);color:var(--accent);display:grid;place-items:center;margin-bottom:14px}
+  .bx .ic svg{width:20px;height:20px}
+  .bx h3{font-size:1.04rem;margin-bottom:7px}
+  .bx p{font-size:.89rem;color:var(--muted)}
+  .bx .big{font-size:2.5rem;font-weight:800;letter-spacing:-.05em;color:var(--accent);line-height:1;margin-bottom:6px}
+  .bx .bigl{font-size:.85rem;color:var(--muted);font-weight:500}
+  /* ---- steps ---- */
+  .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .s3{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px 24px;position:relative}
+  .s3 .n{width:34px;height:34px;border-radius:100px;background:linear-gradient(120deg,var(--accent),var(--accent-l));color:#fff;font-weight:800;font-size:.95rem;display:grid;place-items:center;margin-bottom:15px}
+  .s3 h4{font-size:1.06rem;margin-bottom:7px}
+  .s3 p{font-size:.9rem;color:var(--muted)}
+  /* ---- glossary ---- */
+  .gloss{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .gl{background:var(--card);border:1px solid var(--line);border-radius:var(--rs);padding:18px 20px}
+  .gl dt{font-weight:800;font-size:.97rem;letter-spacing:-.02em;margin-bottom:4px}
+  .gl dd{font-size:.88rem;color:var(--muted)}
+  /* ---- assurances ---- */
+  .assure{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:900px;margin:0 auto}
+  .ai{display:flex;gap:11px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:var(--rs);padding:15px 17px;font-size:.93rem;font-weight:600;color:var(--ink)}
+  .ai svg{color:var(--accent);flex:0 0 auto;margin-top:4px}
+  /* ---- faq ---- */
+  .faq-wrap{max-width:780px;margin:0 auto;display:grid;gap:11px}
+  .faq-item{background:var(--card);border:1px solid var(--line);border-radius:var(--rs);overflow:hidden}
+  .faq-item.open{border-color:var(--accent)}
+  .faq-q{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:18px 20px;font-weight:700;font-size:1rem;cursor:pointer;letter-spacing:-.02em}
+  .faq-q svg{width:19px;height:19px;flex:0 0 auto;color:var(--accent);transition:transform .25s;margin-top:2px}
   .faq-item.open .faq-q svg{transform:rotate(45deg)}
-  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--ink2);font-size:.92rem;line-height:1.7;font-weight:400}
-  .faq-item.open .faq-a{max-height:400px}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;color:var(--ink2);font-size:.92rem;line-height:1.7}
+  .faq-item.open .faq-a{max-height:460px}
   .faq-a div{padding:0 20px 18px}
-  /* cta band */
-  .cta-band{background:var(--accent);border-radius:24px;padding:clamp(34px,5vw,54px);text-align:center;color:#fff;position:relative;overflow:hidden}
-  .cta-band h2{font-size:clamp(1.7rem,3vw,2.35rem);font-weight:900;letter-spacing:-.03em;margin-bottom:10px;position:relative}
-  .cta-band p{opacity:.92;margin-bottom:24px;position:relative;font-size:1.04rem;font-weight:400}
-  .cta-band a{position:relative;display:inline-block;background:#fff;color:var(--ink);border-radius:100px;padding:15px 32px;font-weight:800;font-size:1.02rem;box-shadow:0 12px 30px -8px rgba(0,0,0,.3)}
-  .cta-band a:hover{transform:translateY(-2px)}
-  @media(max-width:900px){
-    .hero-grid{grid-template-columns:1fr;gap:30px}
-    .survey-card{position:static}
-    .steps3{grid-template-columns:1fr}
-    .why-grid{grid-template-columns:1fr 1fr}
-  }
-  @media(max-width:560px){ .why-grid{grid-template-columns:1fr} }
-  .assure{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:840px;margin:0 auto}
-  .ai{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;font-size:.95rem;font-weight:600;color:var(--ink);line-height:1.45}
-  .ai svg{color:var(--accent);flex:0 0 auto;margin-top:2px}
+  /* ---- cta ---- */
+  .cta-band{background:var(--night);background-image:radial-gradient(700px 300px at 80% 0%,rgba(56,189,248,.22),transparent 60%);border-radius:26px;padding:clamp(34px,5vw,58px);text-align:center;color:#fff}
+  .cta-band h2{font-size:clamp(1.7rem,3vw,2.4rem);margin-bottom:11px;color:#fff}
+  .cta-band p{color:#a9b7cd;margin-bottom:26px;font-size:1.03rem}
+  .cta-band a{display:inline-block;background:#fff;color:var(--night);border-radius:100px;padding:15px 34px;font-weight:800;font-size:1rem}
+  .cta-band a:hover{background:var(--accent-l)}
+  /* ---- footer ---- */
+  footer{background:var(--night);color:#8fa0b8;padding:46px 0 34px;font-size:.85rem;margin-top:clamp(40px,6vw,72px)}
+  footer .fcols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px;padding-bottom:26px;border-bottom:1px solid rgba(255,255,255,.09)}
+  footer h5{color:#fff;font-size:.79rem;letter-spacing:.13em;text-transform:uppercase;margin-bottom:14px;font-weight:800}
+  footer .fnav{display:grid;gap:9px}
+  footer a{color:#b9c7da}
+  footer a:hover{color:var(--accent-l)}
+  footer .fbot{padding-top:22px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+  footer .fine{font-size:.75rem;color:#69798f;line-height:1.65;margin-top:13px;max-width:800px}
   .mobile-cta{display:none}
-  @media(max-width:900px){
-    .assure{grid-template-columns:1fr}
+  @media(max-width:960px){
+    .hero{grid-template-columns:1fr;gap:28px}
+    .survey-card{position:static}
+    .navlinks{display:none}
+    .bento{grid-template-columns:1fr 1fr}
+    .bx.wide{grid-column:span 2}
+    .steps3{grid-template-columns:1fr}
+    .gloss,.assure{grid-template-columns:1fr}
+    footer .fcols{grid-template-columns:1fr 1fr}
     body{padding-bottom:78px}
-    .mobile-cta{display:flex;position:fixed;left:14px;right:14px;bottom:14px;z-index:60;justify-content:center;align-items:center;gap:8px;background:var(--accent);color:#fff;font-weight:800;font-size:1rem;padding:15px;border-radius:100px;box-shadow:0 12px 30px -6px rgba(16,24,40,.45);text-decoration:none}
+    .mobile-cta{display:flex;position:fixed;left:14px;right:14px;bottom:14px;z-index:60;justify-content:center;align-items:center;background:linear-gradient(120deg,var(--accent),var(--accent-l));color:#fff;font-weight:800;font-size:1rem;padding:15px;border-radius:100px;box-shadow:0 14px 32px -8px rgba(37,99,235,.6)}
   }
-</style>
-<style><style>@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,500;1,9..144,600&display=swap');:root{--bg:#eef4fc;--line:#e0e8f4;--line2:#d3deef}body{background:#eef4fc}h1 .hl,.sec-title .hl,.band h2 .hl,.testi-quote{font-family:'Fraunces',Georgia,serif !important;font-style:italic;font-weight:600}.survey-card{border-radius:28px !important}.s3,.why-card,.testi-card,.faq-item,.cta-band{border-radius:22px !important}</style>
+  @media(max-width:600px){ .bento{grid-template-columns:1fr} .bx.wide{grid-column:span 1} footer .fcols{grid-template-columns:1fr} }
 </style>
 </head>
 <body>
+<div class="herowrap">
 <header>
   <div class="wrap nav">
-    <div class="brand"><span class="spark"><svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span> Clear Solar Quotes</div>
-    <a href="#quote" class="cta">Get Quote</a>
+    <a href="/" class="brand"><span class="mark"><svg width="15" height="15" viewBox="0 0 24 24" fill="#fff"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span> Clear Solar Quotes</a>
+    <nav class="navlinks">
+      <a href="#how">How it works</a>
+      <a href="#payback">Payback</a>
+      <a href="#glossary">Jargon</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#quote" class="cta">Get my quote</a>
   </div>
 </header>
 
-<main class="wrap hero " id="top">
-  <div class="hero-grid">
-    <div>
-      <span class="eyebrow"><span class="dot"></span> Now matching Albury/Wodonga homeowners</span>
-      <h1>Solar quotes in <span class="hl">Albury/Wodonga</span>, matched to a local installer.</h1>
-      <p class="sub">Clear, honest solar pricing for Albury/Wodonga homes, from one trusted local installer. Answer four quick questions and we'll match you with a single accredited installer covering your postcode. No spam, no reselling your details.</p>
-      <div class="ticks">
-        <div class="tick"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> One installer, matched to your postcode</div>
-        <div class="tick"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Qualified electricians &amp; accredited installers only</div>
-        <div class="tick"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> 100% free &amp; obligation-free</div>
-      </div>
+<main class="wrap hero" id="top">
+  <div>
+    <span class="eyebrow"><span class="dot"></span> Now matching Albury/Wodonga homeowners</span>
+    <h1>Solar quotes in <span class="hl">Albury/Wodonga</span>, matched to a local installer.</h1>
+    <p class="sub">Clear, honest solar pricing for Albury/Wodonga homes, from one trusted local installer. Answer four quick questions and we'll match you with a single accredited installer covering your postcode. No spam, no reselling your details.</p>
+    <div class="ticks">
+      <div class="tick"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> One installer, matched to your postcode, never resold</div>
+      <div class="tick"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Qualified electricians and accredited installers only</div>
+      <div class="tick"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Free, obligation-free, and no lock-in</div>
     </div>
+    <div class="trust-pills">
+      <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Accredited installers</span>
+      <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Details never resold</span>
+      <span class="trust-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg> Number verified</span>
+    </div>
+  </div>
 
-    <!-- SURVEY -->
-    <div class="survey-card" id="quote">
-      <div class="card-head">
-        <div class="t">Get your free solar quote</div>
-        <div class="s">Takes under a minute · matched to your area</div>
+  <!-- SURVEY -->
+  <div class="survey-card" id="quote">
+    <div class="card-head">
+      <div class="t">Get your free solar quote</div>
+      <div class="s">Under a minute - matched to your area</div>
+    </div>
+    <div class="survey-progress">
+      <div class="progbar"><i id="progFill"></i></div>
+      <div class="progtext" id="progressCount">Step 1 of 5</div>
+    </div>
+    <div class="card-body">
+
+      <!-- STEP 1: OWNERSHIP -->
+      <div class="step active" id="step1">
+        <div class="q">Do you own your home?</div>
+        <div class="qs">Rebates and installer quotes require the property owner's go-ahead.</div>
+        <div id="step1-inner">
+          <button class="choice-card" onclick="pickOwner(true,'owner',this)">Yes, I own it <span>&rarr;</span></button>
+          <button class="choice-card" onclick="pickOwner(false,'renter',this)">No, I'm renting <span>&rarr;</span></button>
+        </div>
+        <div id="renter-msg" style="display:none;padding:16px 2px;font-size:.9rem;color:var(--ink2)">
+          No problem. Solar usually needs the owner's sign-off. If you can involve them, come back any time.
+        </div>
       </div>
-      <div class="survey-progress">
-        <div class="progbar"><i id="progFill"></i></div>
-        <div class="progtext" id="progressCount">Step 1 of 5</div>
+
+      <!-- STEP 2: BILL -->
+      <div class="step" id="step2">
+        <button class="backlink" onclick="goToStep(2,1)">&larr; Back</button>
+        <div class="q">Roughly what's your quarterly power bill?</div>
+        <div class="qs">Helps your installer size the right system.</div>
+        <button class="choice-h" onclick="pickBill(this,'Under $300')">Under $300</button>
+        <button class="choice-h" onclick="pickBill(this,'$300 - $600')">$300 - $600</button>
+        <button class="choice-h" onclick="pickBill(this,'$600 - $1,000')">$600 - $1,000</button>
+        <button class="choice-h" onclick="pickBill(this,'Over $1,000')">Over $1,000</button>
       </div>
-      <div class="card-body">
 
-        <!-- STEP 1: OWNERSHIP -->
-        <div class="step active" id="step1">
-          <div class="q">Do you own your home?</div>
-          <div class="qs">Rebates and installer quotes require the property owner's go-ahead.</div>
-          <div id="step1-inner">
-            <button class="choice-card" onclick="pickOwner(true,'owner',this)">Yes, I own it <span>→</span></button>
-            <button class="choice-card" onclick="pickOwner(false,'renter',this)">No, I'm renting <span>→</span></button>
-          </div>
-          <div id="renter-msg" style="display:none;padding:16px 2px;font-size:.9rem;color:var(--ink2)">
-            No problem. Solar usually needs the owner's sign-off. If you can involve them, come back any time.
-          </div>
-        </div>
-
-        <!-- STEP 2: BILL -->
-        <div class="step" id="step2">
-          <button class="backlink" onclick="goToStep(2,1)">← Back</button>
-          <div class="q">Roughly what's your quarterly power bill?</div>
-          <div class="qs">Helps your installer size the right system.</div>
-          <button class="choice-h" onclick="pickBill(this,'Under $300')">Under $300</button>
-          <button class="choice-h" onclick="pickBill(this,'$300 – $600')">$300 – $600</button>
-          <button class="choice-h" onclick="pickBill(this,'$600 – $1,000')">$600 – $1,000</button>
-          <button class="choice-h" onclick="pickBill(this,'Over $1,000')">Over $1,000</button>
-        </div>
-
-        <!-- STEP 3: TIMELINE -->
-        <div class="step" id="step3">
-          <button class="backlink" onclick="goToStep(3,2)">← Back</button>
-          <div class="q">How soon are you looking to install?</div>
-          <div class="qs">So the right installer prioritises your quote.</div>
-          <button class="choice-h" onclick="pickTimeline(this,'ASAP - next 30 days')">ASAP, next 30 days</button>
-          <button class="choice-h" onclick="pickTimeline(this,'1 - 3 months')">1 – 3 months</button>
-          <button class="choice-h" onclick="pickTimeline(this,'3 - 6 months')">3 – 6 months</button>
-          <button class="choice-h" onclick="pickTimeline(this,'Just researching')">Just researching</button>
-        </div>
-
-        <!-- STEP 4: POSTCODE -->
-        <div class="step" id="step4">
-          <button class="backlink" onclick="goToStep(4,3)">← Back</button>
-          <div class="q">What's your postcode?</div>
-          <div class="qs">We check which installer covers your area.</div>
-          <div class="fld">
-            <input id="postcode" type="tel" inputmode="numeric" maxlength="4" placeholder="e.g. 2000" oninput="onPostcodeTyping()">
-            <div class="err" id="err-postcode"></div>
-          </div>
-          <div class="suburb-chip" id="suburb-chip"><span id="suburb-text"></span></div>
-          <button class="btn" id="postcodeBtn" style="margin-top:12px" onclick="submitPostcode()">Find my local installer →</button>
-        </div>
-
-        <!-- STEP 5: CONTACT -->
-        <div class="step" id="step5">
-          <button class="backlink" onclick="goToStep(5,4)">← Back</button>
-          <div class="q">Where should <span id="buyerName">your installer</span> send your quote?</div>
-          <div class="qs">Shared only with your one matched installer.</div>
-          <!-- honeypot: hidden from humans; bots fill it and get silently dropped -->
-          <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0">
-          <div class="grid2">
-            <div class="fld"><label>First name</label><input id="firstName" oninput="validateContact()"><div class="err" id="err-firstName">Required</div></div>
-            <div class="fld"><label>Last name</label><input id="lastName" oninput="validateContact()"><div class="err" id="err-lastName">Required</div></div>
-          </div>
-          <div class="fld"><label>Email</label><input id="email" type="email" oninput="validateContact()"><div class="err" id="err-email">Enter a valid email</div></div>
-          <div class="fld"><label>Mobile</label><input id="phone" type="tel" inputmode="numeric" placeholder="04xx xxx xxx" oninput="validateContact()"><div class="err" id="err-phone">Enter a valid AU mobile</div></div>
-          <div class="consent-wrap">
-            <input type="checkbox" id="consent" onchange="validateContact()">
-            <label for="consent">I agree to be contacted by <strong id="consentBuyerName">my matched accredited installer</strong> about my solar enquiry. My details are shared only with that one installer. I've read the <a href="https://clearsolarquotes.com.au/privacy-policy.html">Privacy Policy</a> &amp; <a href="https://clearsolarquotes.com.au/terms.html">Terms</a>.</label>
-          </div>
-          <button class="btn" id="submitBtn" disabled onclick="submitForm()">Get my free quote →</button>
-          <div class="err" id="err-form" style="text-align:center;margin-top:10px"></div>
-          <div class="fineprint">We check every number is a real Australian mobile before matching. No spam.</div>
-        </div>
-
-        <!-- SUCCESS -->
-        <div class="step" id="stepDone"></div>
+      <!-- STEP 3: TIMELINE -->
+      <div class="step" id="step3">
+        <button class="backlink" onclick="goToStep(3,2)">&larr; Back</button>
+        <div class="q">How soon are you looking to install?</div>
+        <div class="qs">So the right installer prioritises your quote.</div>
+        <button class="choice-h" onclick="pickTimeline(this,'ASAP - next 30 days')">ASAP, next 30 days</button>
+        <button class="choice-h" onclick="pickTimeline(this,'1 - 3 months')">1 - 3 months</button>
+        <button class="choice-h" onclick="pickTimeline(this,'3 - 6 months')">3 - 6 months</button>
+        <button class="choice-h" onclick="pickTimeline(this,'Just researching')">Just researching</button>
       </div>
+
+      <!-- STEP 4: POSTCODE -->
+      <div class="step" id="step4">
+        <button class="backlink" onclick="goToStep(4,3)">&larr; Back</button>
+        <div class="q">What's your postcode?</div>
+        <div class="qs">We check which installer covers your area.</div>
+        <div class="fld">
+          <input id="postcode" type="tel" inputmode="numeric" maxlength="4" placeholder="e.g. 2000" oninput="onPostcodeTyping()">
+          <div class="err" id="err-postcode"></div>
+        </div>
+        <div class="suburb-chip" id="suburb-chip"><span id="suburb-text"></span></div>
+        <button class="btn" id="postcodeBtn" style="margin-top:12px" onclick="submitPostcode()">Find my local installer</button>
+      </div>
+
+      <!-- STEP 5: CONTACT -->
+      <div class="step" id="step5">
+        <button class="backlink" onclick="goToStep(5,4)">&larr; Back</button>
+        <div class="q">Where should <span id="buyerName">your installer</span> send your quote?</div>
+        <div class="qs">Shared only with your one matched installer.</div>
+        <!-- honeypot: hidden from humans; bots fill it and get silently dropped -->
+        <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;opacity:0">
+        <div class="grid2">
+          <div class="fld"><label>First name</label><input id="firstName" oninput="validateContact()"><div class="err" id="err-firstName">Required</div></div>
+          <div class="fld"><label>Last name</label><input id="lastName" oninput="validateContact()"><div class="err" id="err-lastName">Required</div></div>
+        </div>
+        <div class="fld"><label>Email</label><input id="email" type="email" oninput="validateContact()"><div class="err" id="err-email">Enter a valid email</div></div>
+        <div class="fld"><label>Mobile</label><input id="phone" type="tel" inputmode="numeric" placeholder="04xx xxx xxx" oninput="validateContact()"><div class="err" id="err-phone">Enter a valid AU mobile</div></div>
+        <div class="consent-wrap">
+          <input type="checkbox" id="consent" onchange="validateContact()">
+          <label for="consent">I agree to be contacted by <strong id="consentBuyerName">my matched accredited installer</strong> about my solar enquiry. My details are shared only with that one installer. I've read the <a href="https://clearsolarquotes.com.au/privacy-policy.html">Privacy Policy</a> &amp; <a href="https://clearsolarquotes.com.au/terms.html">Terms</a>.</label>
+        </div>
+        <button class="btn" id="submitBtn" disabled onclick="submitForm()">Get my free quote</button>
+        <div class="err" id="err-form" style="text-align:center;margin-top:10px"></div>
+        <div class="fineprint">We check every number is a real Australian mobile before matching. No spam.</div>
+      </div>
+
+      <!-- SUCCESS -->
+      <div class="step" id="stepDone"></div>
     </div>
   </div>
 </main>
+</div>
 
-<section class="band">
-  <div class="wrap">
-    <h2>How <span class="hl">Clear Solar Quotes</span> works</h2>
-    <p class="lead">One short form. One matched installer. Zero call-centre run-around.</p>
-    <div class="steps3">
-      <div class="s3"><div class="n">1</div><h4>Tell us about your home</h4><p>Four quick questions about ownership, your bill, timing and postcode.</p></div>
-      <div class="s3"><div class="n">2</div><h4>We match your postcode</h4><p>You're matched to the single accredited installer that covers your area, never resold to five companies.</p></div>
-      <div class="s3"><div class="n">3</div><h4>Get your free quote</h4><p>Your matched installer reaches out with an obligation-free quote, usually within one business day.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- WHY -->
-<section class="sec"><div class="wrap">
-  <div class="sec-head">
-    <div class="sec-eyebrow">Why Clear Solar Quotes</div>
-    <h2 class="sec-title">Everything a good quote should be, <span class="hl">nothing it shouldn't</span></h2>
-    <p class="sec-sub">No call-centres. No handing your number to five companies. One vetted local installer, matched to your postcode, and that's it.</p>
-  </div>
-  <div class="why-grid">
-    <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg></div><h3>One exclusive match</h3><p>Your enquiry goes to a single installer for your area, never resold. They're invested in earning your business.</p></div>
-    <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Vetted &amp; accredited</h3><p>Every installer is a qualified, accredited professional, the standard required to access government solar incentives.</p></div>
-    <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div><h3>Zero spam</h3><p>We don't sell your details around. You hear from your one matched installer, not a wall of cold calls.</p></div>
-    <div class="why-card"><div class="why-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h3>Free &amp; obligation-free</h3><p>The quote costs you nothing and you're never locked in. Compare it, sit on it, or walk away.</p></div>
+<!-- BENTO: pulled up over the dark hero -->
+<section class="sec pull-up"><div class="wrap">
+  <div class="bento">
+    <div class="bx"><div class="big">1</div><div class="bigl">installer per postcode, never more</div></div>
+    <div class="bx"><div class="big">4</div><div class="bigl">questions before you're matched</div></div>
+    <div class="bx"><div class="big">1 day</div><div class="bigl">typical time to hear back</div></div>
+    <div class="bx"><div class="big">$0</div><div class="bigl">cost to you, always</div></div>
   </div>
 </div></section>
 
-<!-- WHAT YOU GET -->
-<section class="sec" style="padding-top:0"><div class="wrap">
+<!-- HOW -->
+<section class="sec" id="how"><div class="wrap">
   <div class="sec-head">
-    <div class="sec-eyebrow">No games</div>
-    <h2 class="sec-title">What you get, <span class="hl">in writing</span></h2>
-    <p class="sec-sub">No shared leads, no reselling, no mystery. Here is exactly what every enquiry through Clear Solar Quotes gets.</p>
+    <div class="sec-eyebrow">How it works</div>
+    <h2 class="sec-title">Three steps, no run-around</h2>
+    <p class="sec-sub">Most quote sites sell your number to whoever pays. We match you to one installer and stop there.</p>
+  </div>
+  <div class="steps3">
+    <div class="s3"><div class="n">1</div><h4>Tell us about your home</h4><p>Four quick questions: whether you own the place, your quarterly bill, your timeframe and your postcode. No account, nothing to upload.</p></div>
+    <div class="s3"><div class="n">2</div><h4>We match your postcode</h4><p>We check which accredited installer actually covers your area and match you to that one business. If nobody covers you yet, we say so.</p></div>
+    <div class="s3"><div class="n">3</div><h4>Get your free quote</h4><p>Your matched installer contacts you directly, usually within one business day, with an obligation-free quote for your roof.</p></div>
+  </div>
+</div></section>
+
+<!-- PAYBACK (depth) -->
+<section class="sec" id="payback"><div class="wrap">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Payback</div>
+    <h2 class="sec-title">What actually decides how fast solar pays for itself</h2>
+    <p class="sec-sub">Payback gets quoted as a single number, but it moves a long way depending on how your household actually uses power.</p>
+  </div>
+  <div class="bento">
+    <div class="bx wide"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></div><h3>Self-consumption beats export, by a lot</h3><p>Power you use as it is generated saves you the full retail rate. Power you export earns a feed-in tariff, which is typically a fraction of that. Running the dishwasher, pool pump or washing machine during daylight is the single biggest lever most households have, and it costs nothing to pull.</p></div>
+    <div class="bx"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div><h3>Your tariff structure</h3><p>Time-of-use and flat tariffs change the maths completely. Worth checking which one you are on before comparing quotes.</p></div>
+    <div class="bx"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 14h6l-1 8 9-12h-6z"/></svg></div><h3>When you are home</h3><p>An empty house all day exports most of what it makes. A home office or shift worker changes the numbers dramatically.</p></div>
+    <div class="bx"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 7V5h10v2"/></svg></div><h3>Whether you add a battery</h3><p>A battery lifts self-consumption but adds cost. It usually lengthens simple payback while cutting your bill further.</p></div>
+    <div class="bx"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>System longevity</h3><p>Panels degrade slowly and predictably. A well-installed system keeps producing well past the point it has paid for itself.</p></div>
+    <div class="bx wide"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><h3>The incentive is taken off at the quote</h3><p>The federal small-scale incentive is almost always applied by the installer as a discount on the price you are quoted, rather than something you claim back yourself later. Its value depends on where you live and the expected output of the system, and it steps down on a set schedule, so the same install is generally worth less the longer it is left.</p></div>
+  </div>
+</div></section>
+
+<!-- GLOSSARY (depth) -->
+<section class="sec" id="glossary"><div class="wrap">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Plain english</div>
+    <h2 class="sec-title">The jargon, decoded</h2>
+    <p class="sec-sub">Quotes are full of terms that sound interchangeable and are not. Here is what they actually mean.</p>
+  </div>
+  <dl class="gloss">
+    <div class="gl"><dt>kW vs kWh</dt><dd>kW is the size of your system, its maximum rate of generation. kWh is the amount of energy produced or used over time. Your system is sold in kW, your bill is charged in kWh.</dd></div>
+    <div class="gl"><dt>Inverter</dt><dd>Converts the DC power your panels produce into the AC power your house uses. It is the component that most often needs attention first, so its warranty matters.</dd></div>
+    <div class="gl"><dt>String vs microinverter</dt><dd>A string inverter runs the whole array through one unit. Microinverters sit under each panel, which helps when part of the roof gets shaded but costs more.</dd></div>
+    <div class="gl"><dt>Feed-in tariff</dt><dd>What your retailer pays for power you export to the grid. It varies by retailer and has generally fallen over time, which is why using your own power matters more than it used to.</dd></div>
+    <div class="gl"><dt>Degradation rate</dt><dd>How much output a panel loses each year. A lower rate over 25 years is a large part of what you pay for with premium panels.</dd></div>
+    <div class="gl"><dt>Export limit</dt><dd>Some networks cap how much you can send back to the grid. It can affect the system size you are allowed to install, so it is worth asking about early.</dd></div>
+  </dl>
+</div></section>
+
+<!-- ASSURANCES -->
+<section class="sec"><div class="wrap">
+  <div class="sec-head">
+    <div class="sec-eyebrow">What you get</div>
+    <h2 class="sec-title">No games, in writing</h2>
   </div>
   <div class="assure">
-    <div class="ai"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>One installer per postcode, never shared or resold</div>
-    <div class="ai"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Only qualified, accredited installers, vetted before they join</div>
-    <div class="ai"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Your details go to your one match, and nobody else</div>
-    <div class="ai"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>We check every number is a real Australian mobile</div>
-    <div class="ai"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>100% free, obligation-free, no lock-in</div>
-    <div class="ai"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>If no one covers your postcode yet, we tell you upfront</div>
+    <div class="ai"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>One installer per postcode, never shared or resold</div>
+    <div class="ai"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Only qualified, accredited installers, vetted before they join</div>
+    <div class="ai"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>Your details go to your one match, and nobody else</div>
+    <div class="ai"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>We check every number is a real Australian mobile</div>
+    <div class="ai"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>100% free, obligation-free, no lock-in</div>
+    <div class="ai"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>If no one covers your postcode yet, we tell you upfront</div>
   </div>
 </div></section>
 
 <!-- FAQ -->
-<section class="sec" style="padding-top:0"><div class="wrap">
+<section class="sec" id="faq"><div class="wrap">
   <div class="sec-head">
     <div class="sec-eyebrow">FAQ</div>
-    <h2 class="sec-title">Questions, <span class="hl">answered</span></h2>
+    <h2 class="sec-title">Questions, answered</h2>
   </div>
   <div class="faq-wrap">
     <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Is this really free? What's the catch?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div><div class="faq-a"><div>Genuinely free for homeowners. We earn a referral fee from the matched installer only if you choose to go ahead, and it never changes the price you're quoted. The matching service costs you nothing, with zero obligation.</div></div></div>
@@ -375,36 +422,44 @@ src="https://www.facebook.com/tr?id=1645419089889035&ev=PageView&noscript=1"
   <div class="cta-band">
     <h2>Ready for a straight-up solar quote?</h2>
     <p>One short form, one trusted local installer, zero call-centre run-around.</p>
-    <a href="#quote">Get my free quote →</a>
+    <a href="#quote">Get my free quote</a>
   </div>
 </div></section>
 
 <footer>
   <div class="wrap">
-    <div class="fnav areas">
-      <a href="/sydney/">Sydney</a>
-      <a href="/melbourne/">Melbourne</a>
-      <a href="/brisbane/">Brisbane</a>
-      <a href="/perth/">Perth</a>
-      <a href="/adelaide/">Adelaide</a>
-      <a href="/gold-coast/">Gold Coast</a>
-      <a href="/canberra/">Canberra</a>
-      <a href="/newcastle/">Newcastle</a>
-      <a href="/sunshine-coast/">Sunshine Coast</a>
-      <a href="/central-coast/">Central Coast</a>
-      <a href="/wollongong/">Wollongong</a>
-      <a href="/geelong/">Geelong</a>
+    <div class="fcols">
+      <div>
+        <h5>Clear Solar Quotes</h5>
+        <p class="fine" style="margin-top:0">Free solar quote matching. One accredited local installer per postcode, never shared or resold.</p>
+      </div>
+      <div>
+        <h5>Popular areas</h5>
+        <div class="fnav">
+          <a href="/sydney/">Sydney</a>
+          <a href="/melbourne/">Melbourne</a>
+          <a href="/brisbane/">Brisbane</a>
+          <a href="/perth/">Perth</a>
+          <a href="/adelaide/">Adelaide</a>
+          <a href="/gold-coast/">Gold Coast</a>
+        </div>
+      </div>
+      <div>
+        <h5>More</h5>
+        <div class="fnav">
+          <a href="/canberra/">Canberra</a>
+          <a href="/newcastle/">Newcastle</a>
+          <a href="/sunshine-coast/">Sunshine Coast</a>
+          <a href="/wollongong/">Wollongong</a>
+          <a href="https://clearsolarquotes.com.au/privacy-policy.html">Privacy Policy</a>
+          <a href="https://clearsolarquotes.com.au/terms.html">Terms</a>
+        </div>
+      </div>
     </div>
-    <div class="fnav">
-      <a href="https://clearsolarquotes.com.au/privacy-policy.html">Privacy Policy</a>
-      <a href="https://clearsolarquotes.com.au/terms.html">Terms</a>
-      <a href="#quote">Get a quote</a>
-    </div>
-    <div>© <span id="yr"></span> Clear Solar Quotes</div>
-    <p class="fine">Clear Solar Quotes is a lead-matching service. We connect homeowners with a single qualified, accredited solar installer covering their postcode. Your details are shared only with your matched installer, with your consent. Quotes are free and obligation-free.</p>
+    <div class="fbot"><div>&copy; <span id="yr"></span> Clear Solar Quotes</div></div>
+    <p class="fine">Clear Solar Quotes is a lead-matching service. We connect homeowners with a single qualified, accredited solar installer covering their postcode. Your details are shared only with your matched installer, with your consent. Quotes are free and obligation-free. Payback and incentive information is general in nature and confirmed by your installer for your property.</p>
   </div>
 </footer>
-
 <script>
 /* ─── CONFIG (LGR / Lead Gen Rentals backend) ─── */
 var SUPABASE_URL      = 'https://tgujjtllrrhpwkcmmqap.supabase.co';
