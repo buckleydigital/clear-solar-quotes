@@ -149,7 +149,7 @@ src="https://www.facebook.com/tr?id=1645419089889035&ev=PageView&noscript=1"
   .steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
   .s3{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px 24px;position:relative}
   .s3 .n{width:34px;height:34px;border-radius:100px;background:linear-gradient(120deg,var(--accent),var(--accent-l));color:#fff;font-weight:800;font-size:.95rem;display:grid;place-items:center;margin-bottom:15px}
-  .s3 h4{font-size:1.06rem;margin-bottom:7px}
+  .s3 h3{font-size:1.06rem;margin-bottom:7px}
   .s3 p{font-size:.9rem;color:var(--muted)}
   /* ---- glossary ---- */
   .gloss{display:grid;grid-template-columns:1fr 1fr;gap:14px}
@@ -218,6 +218,28 @@ src="https://www.facebook.com/tr?id=1645419089889035&ev=PageView&noscript=1"
   .brand img{height:34px;width:auto;max-width:min(46vw,230px);object-fit:contain;display:block}
   @media(max-width:560px){.brand img{height:28px}}
 /* @end-assets-css */
+/* @polish-css */
+  /* legal + prose pages */
+  .legal{max-width:760px;margin:0 auto}
+  .legal-hero{text-align:center;padding-block:clamp(34px,5vw,64px) clamp(18px,2.5vw,26px)}
+  .legal-hero h1{color:var(--ink);font-size:clamp(1.9rem,3.6vw,2.7rem);margin-bottom:12px}
+  .legal-hero p{color:var(--ink2);font-size:1.02rem;max-width:600px;margin:0 auto}
+  .last-updated{font-size:.8rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;
+    padding-bottom:18px;margin-bottom:26px;border-bottom:1px solid var(--line)}
+  .policy-section{margin-bottom:32px}
+  .policy-section h2{font-size:1.18rem;margin-bottom:11px}
+  .policy-section p{color:var(--ink2);margin-bottom:12px}
+  .policy-section ul{margin:0 0 12px 22px;color:var(--ink2)}
+  .policy-section li{margin-bottom:7px}
+  .policy-section a{color:var(--accent);text-decoration:underline}
+  .legal-back{display:inline-block;margin-bottom:8px;font-size:.85rem;color:var(--muted)}
+  .legal-back:hover{color:var(--accent)}
+
+  /* FAQ triggers are real buttons now; keep the brand's type, drop UA chrome */
+  .faq-q{appearance:none;-webkit-appearance:none;background:none;border:0;width:100%;
+    text-align:left;color:inherit;font-family:var(--f);font-size:1rem}
+  .faq-q:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+/* @end-polish-css */
 </style>
 <!-- @assets -->
 <link rel="icon" href="/favicon.ico" sizes="32x32">
